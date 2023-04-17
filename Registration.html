@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reg Form</title>
+</head>
+<body>
+| <a href="Registration.html">Registration</a> | <a href="login.html"> Login </a> | <a 
+href="view.html"> View </a> | <a href="viewall.html"> ViewAll </a> | <a href="update.html"> 
+Update </a> | <a href="delete.html"> Delete </a>
+    <center><h1>Student Registration Form</h1></center>
+    <hr>
+    <form method="post" action="reg.php" name="reg_form">
+	<center>
+        <h2>Registration Form</h2>
+        <table>
+            <tr>
+                <td><label>Enter Reg.No: </label></td>
+                <td>
+                    <input type="text" name="regno" placeholder="Enter Reg.NO">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Enter Name: </label></td>
+                <td>
+                    <input type="text" name="sname" placeholder="Enter Name">
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label>Gender: </label></td>
+                <td>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="femele">Female
+                </td>
+            </tr>
+            <tr>
+<tr>
+                <td><label>DOB: </label></td>
+                <td>
+                    <input type="date" name="dt">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Email Id: </label></td>
+                <td>
+                    <input type="text" name="email" placeholder="example@gmail.com">
+                </td>
+            </tr>
+<tr>
+                <td><label>Password: </label></td>
+                <td>
+                    <input type="password" name="pwd" placeholder="enter password">
+                </td>
+            </tr>
+<tr>
+            <td><label>Course: </label></td>
+                <td>
+                    <select name="course">
+                        <option value="select course">select course</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JavaScript">JAVASCRIPT</option>
+                        <option value="Java">JAVA</option>
+			<option value="PHP">PHP</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Mobile: </label></td>
+                <td>
+                    <input type="number" name="mobile">
+                </td>
+            </tr>
+<tr>
+                <td><label>Address: </label></td>
+                <td>
+                    <input type="textarea" size="50" name="address" placeholder="Address">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <input type="submit" name="submit" value="Submit">
+                    <input type="reset" name="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+</center>
+    </form>
+</body>
+</html>
